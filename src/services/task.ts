@@ -1,5 +1,5 @@
 import TaskModel from "../models/task";
-import { Task } from "../interface/task.interface";
+import { Task } from "../interfaces/task.interface";
 
 const getTasks = async () => {
   const tasks = await TaskModel.find({});
